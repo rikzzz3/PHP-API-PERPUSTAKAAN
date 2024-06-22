@@ -1,0 +1,17 @@
+GET: http://localhost/php-api/show.php
+
+POST: http://localhost/php-api/post.php
+- title: text
+- author: text
+- language: text
+- copiesavailable: int
+
+PUT: http://localhost/php-api/update.php
+- id: int
+- title: text
+- author: text
+- language: text
+- copiesavailable: int
+
+DELETE: http://localhost/php-api/delete.php
+- id: int
